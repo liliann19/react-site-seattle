@@ -21,15 +21,15 @@ function App() {
       </Section>
 
       <Section title= "Tourist Place">
-      <Card title="Tourist Place #1" description="Space Needle" />
-      <Card title="Tourist Place #2" description="Chihuly Garden and Glass" />
-      <Card title="Tourist Place #3" description="Pike Place Market" />
+      <Card title="Tourist Place #1" description="Space Needle" image="/space-needle.jpeg" alt= "Seattle Space Needle with city skyline in the background"/>
+      <Card title="Tourist Place #2" description="Chihuly Garden and Glass" image="/chihuly-garden-glass.jpeg" alt="Colorful glass sculptures inside Chihuly Garden and Glass exhibit"/>
+      <Card title="Tourist Place #3" description="Pike Place Market" image="/pike-place-market.jpeg" alt="Pike Place Market entrance sign with busy street and vendors" />
       </Section>
 
       <Section title= "Nature & outdoors">
-      <Card title="Nature & Outdoors #1" description="Discovery Park" />
-      <Card title="Nature & Outdoors #2" description="Alki Beach Park" />
-      <Card title="Nature & Outdoors #3" description="Gas Works Park" />
+      <Card title="Nature & Outdoors #1" description="Discovery Park" image="/discovery-park.jpeg" alt="Scenic view of Discovery Park with lighthouse and Puget Sound" />
+      <Card title="Nature & Outdoors #2" description="Alki Beach Park" image="/alki-beach.jpeg" alt="Alki Beach shoreline with Seattle skyline across the water"/>
+      <Card title="Nature & Outdoors #3" description="Gas Works Park" image="/gas-works-park.jpeg" alt="Gas Works Park with industrial structures and Seattle skyline view" />
       </Section>
     </>
   )
