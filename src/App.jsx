@@ -10,9 +10,14 @@ function App() {
       <Header />
       <HeroSection />
       <Section title= "Fun Fact">
-      <Card title="Fun Fact #1" description="Seattle has an entire wall filled with used gum." />
-      <Card title="Fun Fact #2" description="Seattle is built on top of another city." />
-      <Card title="Fun Fact #3" description="Seattle was home to the world's first espresso cart." />
+      <Card title="Fun Fact #1" description="Seattle has an entire wall filled with used gum." 
+      image="/gum_wall.jpg" alt="Seattle Gum Wall covered in colorfull chewing gum" />
+
+      <Card title="Fun Fact #2" description="Seattle is built on top of another city." 
+      image="/underground_seattle.jpg" alt="Seattle Underground passageways beneath the city streets" />
+
+      <Card title="Fun Fact #3" description="Seattle was home to the world's first espresso cart." 
+      image="/espresso_cart.jpeg" alt="Early espresso cart serving coffee in Seattle" />
       </Section>
 
       <Section title= "Tourist Place">
